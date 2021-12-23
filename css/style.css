@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 12, 97);
+    color: rgb(3, 12, 97);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.password-container{
+    background-color: rgb(240, 186, 10);
+    width: 400px;
+    padding: 1rem;
+}
+
+
+#password{
+    width: 100%;
+    padding: .5rem;
+    padding-top: 1rem;
+    position: relative;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 2px solid white;
+}
+
+header{
+    padding: 1rem;
+    background-color: rgb(229, 255, 0);
+    margin-bottom: 1rem;
+}
+
+#copy{
+    position: absolute;
+    padding: 3px;
+    right: 0;
+    bottom: 0;
+    border: none;
+    background-color: rgb(3, 12, 97);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.position{
+    position: relative;
+}
+#generate{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(229, 255, 0);
+    color: rgb(3, 12, 97);
+    width: 100%;
+    border: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.last{
+    text-align: center;padding: 1rem;font-size: 1.15rem;color: white;font: weight 400px;;
+}
